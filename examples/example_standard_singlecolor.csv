@@ -1,0 +1,8 @@
+sample_id,target,positive_partitions,negative_partitions,total_partitions
+Patient_A,BRCA1,2847,22153,25000
+Patient_B,BRCA1,3102,21898,25000
+Patient_C,BRCA1,198,24802,25000
+Patient_D,BRCA1,2955,22045,25000
+Control_1,BRCA1,0,25000,25000
+Control_2,BRCA1,1,24999,25000
+NTC,BRCA1,0,25000,25000

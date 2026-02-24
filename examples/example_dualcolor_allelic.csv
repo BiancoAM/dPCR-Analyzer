@@ -1,0 +1,7 @@
+sample_id,target,mutant_positive,wt_positive,total_partitions
+Patient_A,GENE_X(c.123A>G),3864,4102,25433
+Patient_B,GENE_X(c.123A>G),4201,3987,25388
+Patient_C,GENE_X(c.123A>G),3756,4310,25421
+Control_1,GENE_X(c.123A>G),2,4856,25469
+Control_2,GENE_X(c.123A>G),0,5123,25448
+NTC,GENE_X(c.123A>G),0,0,25000

@@ -1,0 +1,38 @@
+# R session files
+.RData
+.Rhistory
+.Rapp.history
+
+# macOS system files
+.DS_Store
+._.DS_Store
+._*
+
+# Output directories (generated data, not source)
+Results/
+pdf_reports/
+immagine/
+
+# Large generated files
+Rplots.pdf
+*.png
+*.pdf
+*.svg
+
+# Keep example files (override above)
+!examples/*.csv
+
+# Personal/patient data folders - DO NOT publish
+examples/lavoro_elena/
+examples/lavoro_valeria/
+
+# Temporary and test files
+*.tmp
+*.log
+debug_pdf.R
+test_amplitude_plot.R
+test_app.R
+test_extraction.R
+app_fixed.R
+generate_figure_S3_ETFDH.R
+ISTRUZIONI_RAPIDE.txt

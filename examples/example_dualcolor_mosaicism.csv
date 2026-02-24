@@ -1,0 +1,6 @@
+sample_id,target,mutant_positive,wt_positive,total_partitions
+Proband_blood,LZTR1(c.742C>T),2025,14628,25453
+Proband_saliva,LZTR1(c.742C>T),1587,12447,25476
+Affected_parent,LZTR1(c.742C>T),7009,7624,24184
+Healthy_control,LZTR1(c.742C>T),1,12563,25451
+NTC,LZTR1(c.742C>T),0,0,17400
