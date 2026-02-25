@@ -13,8 +13,8 @@
 
 # ==== USER SETTINGS =========================================
 
-if (!exists("PDF_PATH"))    PDF_PATH    <- "/path/to/your/experiment.pdf"   # <-- Change this
-if (!exists("TARGET_NAME")) TARGET_NAME <- "GENE(c.variant)"                # <-- Change this
+if (!exists("PDF_PATH"))    PDF_PATH    <- "/Volumes/mony2/pdf_reports_dPCR/nuovo.pdf"   # <-- Change this
+if (!exists("TARGET_NAME")) TARGET_NAME <- "nuovo"                # <-- Change this
 
 # ============================================================
 
