@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![R Shiny](https://img.shields.io/badge/Built%20with-R%20Shiny-blue.svg)](https://shiny.posit.co/)
 [![Platform: QIAcuity](https://img.shields.io/badge/Platform-QIAcuity%20(Qiagen)-green.svg)]()
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16767880.svg)](https://doi.org/10.5281/zenodo.16767880)
 
 An open-source R/Shiny application for digital PCR (dPCR) data analysis and publication-quality visualization, optimized for the **QIAcuity** nanoplate system (Qiagen).
 
@@ -95,6 +96,7 @@ The `examples/` folder contains ready-to-use datasets:
 | `example_standard_triplicates.csv` | Standard | Technical triplicates |
 | `example_dualcolor_allelic.csv` | Dual-Color | Mutant vs WT, single values |
 | `example_dualcolor_triplicates.csv` | Dual-Color | Mutant vs WT, triplicates |
+| `example_dualcolor_mosaicism.csv` | Dual-Color | Somatic mosaicism detection |
 
 ---
 
@@ -123,7 +125,18 @@ dPCR_Analyzer_v1.0/
 
 If you use this software, please cite:
 
-> [Author(s)]. dPCR Analyzer v1.0: an R/Shiny application for digital PCR data analysis and publication-quality visualization. *[Journal]*, *[Year]*. doi: [xxx]
+> Bianco AM. *dPCR Analyzer v1.0: an R/Shiny application for digital PCR data analysis and publication-quality visualization*. Zenodo, 2025. doi: [10.5281/zenodo.16767880](https://doi.org/10.5281/zenodo.16767880)
+
+```bibtex
+@software{bianco_dpcr_analyzer_2025,
+  author    = {Bianco, Anna Monica},
+  title     = {dPCR Analyzer v1.0},
+  year      = {2025},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.16767880},
+  url       = {https://doi.org/10.5281/zenodo.16767880}
+}
+```
 
 ---
 
