@@ -51,6 +51,12 @@ shiny::runApp("app_publication.R")
 
 > 💡 The app will open automatically in your browser.
 
+> ⚠️ **Windows users**: when you extract the ZIP downloaded from GitHub, it creates a nested folder (`dPCR-Analyzer-main/dPCR-Analyzer-main/`). Make sure to point `setwd()` to the **inner** folder:
+> ```r
+> setwd("C:/Users/YourName/Downloads/dPCR-Analyzer-main/dPCR-Analyzer-main")
+> shiny::runApp("app_publication.R")
+> ```
+
 ---
 
 ## PDF to CSV Converter
