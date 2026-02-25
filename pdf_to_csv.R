@@ -13,8 +13,8 @@
 
 # ==== USER SETTINGS =========================================
 
-PDF_PATH    <- "/Volumes/mony2/pdf_reports_dPCR/mutation detection_skin_stain.pdf"   # <-- Change this
-TARGET_NAME <- "LZTR1(c.742C>T)"                  # <-- Change this
+if (!exists("PDF_PATH"))    PDF_PATH    <- "/path/to/your/experiment.pdf"   # <-- Change this
+if (!exists("TARGET_NAME")) TARGET_NAME <- "GENE(c.variant)"                # <-- Change this
 
 # ============================================================
 
