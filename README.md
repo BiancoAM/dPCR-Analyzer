@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![R Shiny](https://img.shields.io/badge/Built%20with-R%20Shiny-blue.svg)](https://shiny.posit.co/)
 [![Platform: QIAcuity](https://img.shields.io/badge/Platform-QIAcuity%20(Qiagen)-green.svg)]()
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16767880.svg)](https://doi.org/10.5281/zenodo.16767880)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16767879.svg)](https://doi.org/10.5281/zenodo.16767879)
 
 An open-source R/Shiny application for digital PCR (dPCR) data analysis and publication-quality visualization, optimized for the **QIAcuity** nanoplate system (Qiagen).
 
@@ -147,7 +147,7 @@ dPCR_Analyzer_v1.0/
 
 If you use this software, please cite:
 
-> Bianco AM. *dPCR Analyzer v1.0: an R/Shiny application for digital PCR data analysis and publication-quality visualization*. Zenodo, 2025. doi: [10.5281/zenodo.16767880](https://doi.org/10.5281/zenodo.16767880)
+> Bianco AM. *dPCR Analyzer v1.0: an R/Shiny application for digital PCR data analysis and publication-quality visualization*. Zenodo, 2025. doi: [10.5281/zenodo.16767879](https://doi.org/10.5281/zenodo.16767879)
 
 ```bibtex
 @software{bianco_dpcr_analyzer_2025,
@@ -155,8 +155,8 @@ If you use this software, please cite:
   title     = {dPCR Analyzer v1.0},
   year      = {2025},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.16767880},
-  url       = {https://doi.org/10.5281/zenodo.16767880}
+  doi       = {10.5281/zenodo.16767879},
+  url       = {https://doi.org/10.5281/zenodo.16767879}
 }
 ```
 
