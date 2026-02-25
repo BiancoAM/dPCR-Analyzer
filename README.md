@@ -49,6 +49,25 @@ setwd("/path/to/dPCR_Analyzer_v1.0")
 shiny::runApp("app_publication.R")
 ```
 
+> 💡 The app will open automatically in your browser.
+
+---
+
+## PDF to CSV Converter
+
+If you have a QIAcuity nanoplate PDF report, you can convert it to CSV automatically using the included `pdf_to_csv.R` script:
+
+1. Open `pdf_to_csv.R` in RStudio
+2. Edit the two lines at the top:
+```r
+PDF_PATH    <- "/path/to/your/experiment.pdf"   # your PDF file
+TARGET_NAME <- "GENE(c.variant)"                # e.g. "LZTR1(c.742C>T)"
+```
+3. Save the file (**Cmd+S** on Mac, **Ctrl+S** on Windows)
+4. Click **Source** (top right of the editor) — **not** Run
+5. The CSV is saved automatically in the same folder as the PDF
+6. Import the CSV into the app (Data Input tab → Import CSV)
+
 ---
 
 ## Quick Start
@@ -73,18 +92,21 @@ sample_id, target, positive_partitions, negative_partitions, total_partitions
 sample_id, target, mutant_positive, wt_positive, total_partitions
 ```
 
+> 📂 Ready-to-use example files are in the `examples/` folder.
+
 ### 3. Analysis Tab
 Click **CALCULATE** to compute concentrations using Poisson statistics.
 
 ### 4. Results Tab
 - View and download the results table (CSV)
-- **Group Technical Replicates**: check if your sample IDs use `_1`, `_2`, `_3` suffixes; plots will show Mean ± SD
+- **Group Technical Replicates**: check if your sample IDs use `_1`, `_2`, `_3` suffixes — plots will show Mean ± SD
 - View concentration and allelic fraction plots (dual-color)
 
 ### 5. Plot Settings Tab
 Customize colors, themes, and fonts for publication.
 
 ---
+
 
 ## Example Data
 
