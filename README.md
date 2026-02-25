@@ -147,13 +147,13 @@ dPCR_Analyzer_v1.0/
 
 If you use this software, please cite:
 
-> Bianco AM. *dPCR Analyzer v1.0: an R/Shiny application for digital PCR data analysis and publication-quality visualization*. Zenodo, 2025. doi: [10.5281/zenodo.16767879](https://doi.org/10.5281/zenodo.16767879)
+> Bianco AM. *dPCR Analyzer v1.0: an R/Shiny application for digital PCR data analysis and publication-quality visualization*. Zenodo, 2026. doi: [10.5281/zenodo.16767879](https://doi.org/10.5281/zenodo.16767879)
 
 ```bibtex
 @software{bianco_dpcr_analyzer_2025,
   author    = {Bianco, Anna Monica},
   title     = {dPCR Analyzer v1.0},
-  year      = {2025},
+  year      = {2026},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.16767879},
   url       = {https://doi.org/10.5281/zenodo.16767879}
